@@ -1,2 +1,15 @@
 @media (min-width: 768px) {
+
+#navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#main-doc {
+    display: flex;
+    flex-direction: column;
+}
+
 }

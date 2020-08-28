@@ -10,107 +10,113 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light" id="navbar">
-
-        <header> Python </header>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#About_Python"> About Python </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Python_Data_Types"> Python Data Types </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Python_Variables"> Python Variables </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Python_Functions"> Python Functions </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Python_Libraries"> Python Libraries </a>
-            </li>
-        </ul>
-    </nav>
-    <h1 id="pythonHeadline"> Python </h1>
-    <h2 id="pythonSubhead"> A Very Versatile Language</h2>
-    <main id="main-doc">
-        <!-- Section 1 About Python -->
-        <section class="main-section" id="About_Python">
-            <header> About Python </header>
-            <p> Python is powerful... and fast; plays well with others; runs everywhere; is friendly & easy to learn; is
-                Open.</p>
-
-            <p> Python can be easy to pick up whether you're a first time programmer or you're experienced with other
-                languages. </p>
-
-            Python offers many choices for web development:
-            <ul>
-                <li>Frameworks such as Django and Pyramid.</li>
-                <li>Micro-frameworks such as Flask and Bottle.</li>
-                <li>Advanced content management systems such as Plone and django CMS.</li>
+    <div class="container">
+        <nav id="navbar">
+            <header> Python </header>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#About_Python"> About Python </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Python_Data_Types"> Python Data Types </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Python_Variables"> Python Variables </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Python_Functions"> Python Functions </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Python_Libraries"> Python Libraries </a>
+                </li>
             </ul>
-        </section>
+        </nav>
+    </div>
+    <div class="container">
+        <h1 id="pythonHeadline"> Python </h1>
+        <h2 id="pythonSubhead"> A Very Versatile Language</h2>
+        <main id="main-doc">
+            <!-- Section 1 About Python -->
+            <section class="main-section" id="About_Python">
+                <header> About Python </header>
+                <p> Python is powerful... and fast; plays well with others; runs everywhere; is friendly & easy to
+                    learn; is
+                    Open.</p>
 
-        <!-- Section 2 -->
-        <section class="main-section" id="Python_Data_Types">
-            <header> Python Data Types </header>
-            <p> Python has a number of recognised data types: </p>
+                <p> Python can be easy to pick up whether you're a first time programmer or you're experienced with
+                    other
+                    languages. </p>
 
-            <ul>
-                <li> Text: str </li>
-                <li> Numeric: int, float, complex </li>
-                <li> Sequence: list, tuple , range </li>
-                <li> Mapping: dict </li>
-                <li> Set: set, frozenset </li>
-                <li> Boolean: bool </li>
-                <li> Binary: byte, bytearray, memoryview </li>
-            </ul>
+                Python offers many choices for web development:
+                <ul>
+                    <li>Frameworks such as Django and Pyramid.</li>
+                    <li>Micro-frameworks such as Flask and Bottle.</li>
+                    <li>Advanced content management systems such as Plone and django CMS.</li>
+                </ul>
+            </section>
 
-        </section>
+            <!-- Section 2 -->
+            <section class="main-section" id="Python_Data_Types">
+                <header> Python Data Types </header>
+                <p> Python has a number of recognised data types: </p>
 
-        <!-- Section 3 -->
-        <section class="main-section" id="Python_Variables">
-            <header> Python Variables </header>
-            <p> To initialise a variable in Python, do this: </p>
-            <p>String: <code> x = "This is a string" </code></p>
-            <p>Numeric: <code> x = 20 </code></p>
-            <p>Sequence: <code> x = ["apple", "banana", "cherry"] </code></p>
-            <p>Mapping: <code> x = {"age" : 28, "name" : "Clive"}</code></p>
-            <p>Boolean: <code> x = True </code></p>
-        </section>
+                <ul>
+                    <li> Text: str </li>
+                    <li> Numeric: int, float, complex </li>
+                    <li> Sequence: list, tuple , range </li>
+                    <li> Mapping: dict </li>
+                    <li> Set: set, frozenset </li>
+                    <li> Boolean: bool </li>
+                    <li> Binary: byte, bytearray, memoryview </li>
+                </ul>
 
-        <!-- Section 4 -->
-        <section class="main-section" id="Python_Functions">
-            <header> Python Functions </header>
-            <p> To create functions in Python, you first have to define them:</p>
-            <code> def myFunction(): print ("Hello world") </code>
+            </section>
 
-            <p> Now that the function is defined, you call the function somewhere in your code: </p>
-            <code> myFuction() </code>
-            <!-- Remove once Bootstrap is implemented -->
-            <p> </p>
-        </section>
+            <!-- Section 3 -->
+            <section class="main-section" id="Python_Variables">
+                <header> Python Variables </header>
+                <p> To initialise a variable in Python, do this: </p>
+                <p>String: <code> x = "This is a string" </code></p>
+                <p>Numeric: <code> x = 20 </code></p>
+                <p>Sequence: <code> x = ["apple", "banana", "cherry"] </code></p>
+                <p>Mapping: <code> x = {"age" : 28, "name" : "Clive"}</code></p>
+                <p>Boolean: <code> x = True </code></p>
+            </section>
 
-        <!-- Section 5 -->
-        <section class="main-section" id="Python_Libraries">
-            <header> Python Libraries </header>
-            <p> There are a number of Python libraries. Due to the popularity and versatility of the language, there are
-                a number of libraries for a wide variety of tasks and in a wide variety of fields:</p>
-            <p> Web Development </p>
-            <ul>
-                <li> Django </li>
-                <li> Flask </li>
-                <li> and many more...</li>
-            </ul>
-            <p> Data Science </p>
-            <ul>
-                <li> Tensorflow </li>
-                <li> PyTorch </li>
-                <li> NumPy </li>
-                <li> and again, many more... </li>
-            </ul>
-        </section>
-    </main>
+            <!-- Section 4 -->
+            <section class="main-section" id="Python_Functions">
+                <header> Python Functions </header>
+                <p> To create functions in Python, you first have to define them:</p>
+                <code> def myFunction(): print ("Hello world") </code>
+
+                <p> Now that the function is defined, you call the function somewhere in your code: </p>
+                <code> myFuction() </code>
+                <!-- Remove once Bootstrap is implemented -->
+                <p> </p>
+            </section>
+
+            <!-- Section 5 -->
+            <section class="main-section" id="Python_Libraries">
+                <header> Python Libraries </header>
+                <p> There are a number of Python libraries. Due to the popularity and versatility of the language, there
+                    are
+                    a number of libraries for a wide variety of tasks and in a wide variety of fields:</p>
+                <p> Web Development </p>
+                <ul>
+                    <li> Django </li>
+                    <li> Flask </li>
+                    <li> and many more...</li>
+                </ul>
+                <p> Data Science </p>
+                <ul>
+                    <li> Tensorflow </li>
+                    <li> PyTorch </li>
+                    <li> NumPy </li>
+                    <li> and again, many more... </li>
+                </ul>
+            </section>
+        </main>
+    </div>
     <!-- Bootsrap JS Plugins -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
