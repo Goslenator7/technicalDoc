@@ -1,15 +1,18 @@
-@media (min-width: 768px) {
-
-#navbar {
+#sidebar {
+    width: 160px;
+    height: 100%;
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
 
-#main-doc {
-    display: flex;
-    flex-direction: column;
+#mainContent {
+    position: relative;
+    margin-left: 160px;
 }
 
+body {
+    border: solid;
 }
